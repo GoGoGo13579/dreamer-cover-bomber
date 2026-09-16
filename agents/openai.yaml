@@ -1,0 +1,13 @@
+interface:
+  display_name: 百日梦想家·封面轰炸机
+  short_description: 为百日梦想家的真人口播轰出醒目、像本人、不拼图的横竖封面
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: 使用 $dreamer-cover-bomber 为这期真人口播轰出一套抓眼封面。
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
